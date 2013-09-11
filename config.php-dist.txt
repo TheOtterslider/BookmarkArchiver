@@ -1,0 +1,25 @@
+<?php
+
+
+	// below taken from code written by fox for ttrss
+	// *******************************************
+	// *** Database configuration (important!) ***
+	// *******************************************
+
+	define('DB_TYPE', "mysql"); 
+	define('DB_HOST', "localhost");
+	define('DB_USER', "fox");
+	define('DB_NAME', "fox");
+	define('DB_PASS', "XXXXXX");
+	define('DB_PORT', '3306'); 
+
+	// ***********************************
+	// *** Basic settings (important!) ***
+	// ***********************************
+	
+	define('SELF_URL_PATH', 'http://example.org/subdir/');
+	// Full URL of your archiver installation. This should be set to the
+	// location of the directory, e.g. http://example.org/tt-rss/
+	// You need to set this option correctly otherwise several features
+	// including PUSH, bookmarklets and browser integration will not work properly.
+?>
